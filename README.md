@@ -1,10 +1,10 @@
-# Very short description of the package
+# Laravel Storyblok - CSS helper plugin
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/riclep/laravel-storyblok-css.svg?style=flat-square)](https://packagist.org/packages/riclep/laravel-storyblok-css)
 [![Total Downloads](https://img.shields.io/packagist/dt/riclep/laravel-storyblok-css.svg?style=flat-square)](https://packagist.org/packages/riclep/laravel-storyblok-css)
 ![GitHub Actions](https://github.com/riclep/laravel-storyblok-css/actions/workflows/main.yml/badge.svg)
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
+This is a small package that adds a few additional helper methods to `Block`s for generating dynamic CSS class names. You can create class names for `Block`s based on their component name in Storyblok, where they’re nested in the tree etc.
 
 ## Installation
 
@@ -16,15 +16,21 @@ composer require riclep/laravel-storyblok-css
 
 ## Usage
 
+It’s really simple to use, just add the trait to any blocks you want to create CSS classes for or alternatively the `App\Storyblok\Block` class.
+
 ```php
-// Usage description here
+namespace App\Storyblok;
+
+use Riclep\Storyblok\Block as BaseBlock;
+use Riclep\StoryblokCss\Traits\CssClasses;
+
+class Block extends BaseBlock
+{
+	use CssClasses;
+}
 ```
 
-### Testing
-
-```bash
-composer test
-```
+[Read the docs for more](https://ls.sirric.co.uk/docs/2.13/views#creating-css-class-names).
 
 ### Changelog
 

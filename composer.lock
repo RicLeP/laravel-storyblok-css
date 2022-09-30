@@ -3142,12 +3142,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/RicLeP/laravel-storyblok.git",
-                "reference": "21cf8a8bc1dc716485ac74923abbdeb95fc97507"
+                "reference": "7da0e2304e720c1202d0632bf9ff7be2594404ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RicLeP/laravel-storyblok/zipball/21cf8a8bc1dc716485ac74923abbdeb95fc97507",
-                "reference": "21cf8a8bc1dc716485ac74923abbdeb95fc97507",
+                "url": "https://api.github.com/repos/RicLeP/laravel-storyblok/zipball/7da0e2304e720c1202d0632bf9ff7be2594404ae",
+                "reference": "7da0e2304e720c1202d0632bf9ff7be2594404ae",
                 "shasum": ""
             },
             "require": {
@@ -3214,7 +3214,7 @@
                     "type": "ko_fi"
                 }
             ],
-            "time": "2022-09-30T14:26:25+00:00"
+            "time": "2022-09-30T15:54:56+00:00"
         },
         {
             "name": "spatie/schema-org",

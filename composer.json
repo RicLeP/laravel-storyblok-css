@@ -19,7 +19,7 @@
         "php": "^8.0",
         "illuminate/support": "^9.0",
 	    "mundschenk-at/php-typography": "^6.6",
-	    "riclep/laravel-storyblok": "dev-featuremodular_features"
+	    "riclep/laravel-storyblok": "^2.14"
     },
     "require-dev": {
         "orchestra/testbench": "^7.0",
