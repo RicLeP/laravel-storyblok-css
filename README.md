@@ -30,7 +30,7 @@ class Block extends BaseBlock
 }
 ```
 
-[Read the docs for more](https://ls.sirric.co.uk/docs/2.13/views#creating-css-class-names).
+[Read the docs for more](https://ls.sirric.co.uk/docs/2.14/views#creating-css-class-names).
 
 ### Changelog
 
