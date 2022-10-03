@@ -6,6 +6,8 @@
 
 This is a small package that adds a few additional helper methods to `Block`s for generating dynamic CSS class names. You can create class names for `Block`s based on their component name in Storyblok, where they’re nested in the tree etc.
 
+This package is a module for [Laravel Storyblok](https://github.com/RicLeP/laravel-storyblok)
+
 ## Installation
 
 You can install the package via composer:
