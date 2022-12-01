@@ -17,7 +17,6 @@
     ],
     "require": {
         "php": "^8.0",
-        "illuminate/support": "^9.0",
 	    "mundschenk-at/php-typography": "^6.6",
 	    "riclep/laravel-storyblok": "^2.14"
     },
