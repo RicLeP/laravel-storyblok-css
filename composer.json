@@ -21,7 +21,7 @@
 	    "riclep/laravel-storyblok": "^2.14"
     },
     "require-dev": {
-        "orchestra/testbench": "^7.0",
+        "orchestra/testbench": "^8.0",
         "phpunit/phpunit": "^9.0"
     },
     "autoload": {
